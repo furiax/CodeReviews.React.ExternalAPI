@@ -27,6 +27,7 @@ public class FormulaService : IFormulaService
             return null;
         }
         _dbContext.Drivers.Remove(deletedDriver);
+        _dbContext.SaveChanges();
         return $"Successfully deleted driver with id: {id}";
     }
 
@@ -49,7 +50,7 @@ public class FormulaService : IFormulaService
             return null;
         }
         _dbContext.Entry(updatedDriver).CurrentValues.SetValues(driver);
-        _dbContext.SaveChanges() ;
+        _dbContext.SaveChanges();
         return updatedDriver;
     }
 }
