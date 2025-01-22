@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using FormulaOneServer.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace FormulaOneServer.Data;
 public class FormulaDbContext : DbContext
