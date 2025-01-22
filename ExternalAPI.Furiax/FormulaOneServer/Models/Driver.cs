@@ -4,7 +4,7 @@ namespace FormulaOneServer.Models
 {
     public class Driver
     {
-        [Key]
+        public int Id { get; set; } 
         public int DriverNumber { get; set; }
         public string DriverName { get; set; }
         public string DriverImageLink { get; set; }
