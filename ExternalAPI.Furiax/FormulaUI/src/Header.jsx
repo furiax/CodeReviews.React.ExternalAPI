@@ -1,7 +1,11 @@
 export default function Header(){
     return(
         <>
-            <h1>Race Pilots</h1>
+            <div className="header">
+                <img className="logo-img" src="src\assets\logo.png"></img>
+                <h1 className="title">F1 Pilots</h1>
+                <img className="flag-img" src="src\assets\flag.png"></img>
+            </div>
         </>
     )
 }
