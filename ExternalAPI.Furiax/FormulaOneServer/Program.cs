@@ -10,7 +10,10 @@ builder.Services.AddCors(opt =>
 {
     opt.AddPolicy(name: MyAllowSpecificOrigins, policy =>
     //React page is running on localhost:/5176, adjust accordingly
-        { policy.WithOrigins("http://localhost:5176");});
+        {
+            policy.WithOrigins("http://localhost:60834");
+        });
+
 });
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaOneServer", "FormulaOneServer\FormulaOneServer.csproj", "{DDC111E3-B359-4008-B827-9146F185389A}"
 EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "FormulaUI", "FormulaUI\FormulaUI.njsproj", "{D176686F-845B-4CF8-90AF-3C0923F0A3C1}"
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "FormulaOneClient", "FormulaOneClient\FormulaOneClient.esproj", "{2691435F-CE8D-4BAB-A7E6-0A218552B93A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,12 @@ Global
 		{DDC111E3-B359-4008-B827-9146F185389A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDC111E3-B359-4008-B827-9146F185389A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDC111E3-B359-4008-B827-9146F185389A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D176686F-845B-4CF8-90AF-3C0923F0A3C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D176686F-845B-4CF8-90AF-3C0923F0A3C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D176686F-845B-4CF8-90AF-3C0923F0A3C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D176686F-845B-4CF8-90AF-3C0923F0A3C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2691435F-CE8D-4BAB-A7E6-0A218552B93A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2691435F-CE8D-4BAB-A7E6-0A218552B93A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2691435F-CE8D-4BAB-A7E6-0A218552B93A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2691435F-CE8D-4BAB-A7E6-0A218552B93A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2691435F-CE8D-4BAB-A7E6-0A218552B93A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2691435F-CE8D-4BAB-A7E6-0A218552B93A}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
