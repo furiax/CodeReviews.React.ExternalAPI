@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaOneServer", "FormulaOneServer\FormulaOneServer.csproj", "{DDC111E3-B359-4008-B827-9146F185389A}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "FormulaUI", "FormulaUI\FormulaUI.njsproj", "{D176686F-845B-4CF8-90AF-3C0923F0A3C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DDC111E3-B359-4008-B827-9146F185389A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDC111E3-B359-4008-B827-9146F185389A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDC111E3-B359-4008-B827-9146F185389A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D176686F-845B-4CF8-90AF-3C0923F0A3C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D176686F-845B-4CF8-90AF-3C0923F0A3C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D176686F-845B-4CF8-90AF-3C0923F0A3C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D176686F-845B-4CF8-90AF-3C0923F0A3C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
