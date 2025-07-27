@@ -2,6 +2,7 @@
 using FormulaOneServer.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,9 +10,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FormulaOneServer.Migrations
 {
     [DbContext(typeof(FormulaDbContext))]
-    partial class FormulaDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250415124339_added_more_driverinfo")]
+    partial class added_more_driverinfo
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.1");
